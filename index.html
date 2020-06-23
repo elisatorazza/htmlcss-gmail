@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="posta">
+      <div>
+        <!-- inizio intestazione -->
+        <header class="header">
+          <div class="intestazione">
+            <img id= logo src="img/logo-gmail.jpg" alt="Logo Gmail">
+            <h1 id= titolo>Gmail</h1>
+          </div>
+        </header>
+        <!-- /fine intestazione -->
+      </div>
+        <!-- inizio benvenuto -->
+        <main>
+          <div class="feedback">
+            <input type="text" name="Search" placeholder="Search">
+            <button>VAI</button>
+            <h2>You have <span id=unread>30</span> unread</h2>
+          </div>
+
+        <!-- /fine benvenuto -->
+
+        <!-- inizio lista mail -->
+          <div class="lista_mail">
+            <ul class="elenco">
+              <li class="mail">
+                <input type="checkbox">
+                &#9733;<strong> Oggetto della mail</strong><span class="testo"> - testo della email... </span>
+              </li>
+              <li class="mail" id="second">
+                <input type="checkbox">
+                &#9733;<strong> Oggetto della mail</strong><span class="testo"> - testo della email... </span>
+              </li>
+              <li class="mail">
+                <input type="checkbox">
+                &#9733;<strong> Oggetto della mail</strong><span class="testo"> - testo della email... </span>
+              </li>
+              <li class="mail" id="ultima">
+                <input type="checkbox">
+                &#9733;<strong> Oggetto della mail</strong><span class="testo"> - testo della email... </span>
+              </li>
+            </ul>
+          </div>
+        <!-- /fine lista mail -->
+        </main>
+        <!-- inizio piè di pagina -->
+        <footer id=footer>
+          <p><strong class="gm">GMail</strong>
+            <span class="author"> powered by Davide </span></p>
+        </footer>
+        <!-- /fine piè di pagina -->
+      </div>
+  </body>
+</html>

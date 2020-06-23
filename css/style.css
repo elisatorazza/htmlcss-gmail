@@ -1,0 +1,79 @@
+body {
+  background-image: url(../img/immagine_sfondo.jpg);
+}
+
+.posta {
+  border-top: medium;
+  width: 90%;
+  margin: auto;
+}
+/* stile intestazione */
+.header {
+  padding-bottom: 20px;
+}
+.intestazione{
+  border; 20px, 0px;
+}
+#logo {
+  vertical-align: middle;
+  width: 100px
+}
+/* fine intestazione */
+
+/* inizio benvenuto */
+#titolo {
+  color: white;
+  display: inline;
+}
+.feedback {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-top: 20px;
+}
+h2 {
+  color: white;
+}
+#unread {
+  background-color: orange;
+  border-radius: 100%;
+  padding: 15px;
+}
+/* fine benvenuto */
+
+/* inizio lista mail */
+.elenco {
+  list-style-type: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+.mail {
+  background-color: #BFC9CA;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.testo {
+  color: #717D7E;
+}
+#ultima {
+  border-bottom: 1px solid black;
+}
+#second {
+  background-color: white;
+}
+/* fine lista mail */
+
+/* inizio piè di pagina */
+#footer {
+  color: white;
+  text-align: center;
+}
+.gm {
+  font-size: 30px
+}
+.author {
+  font-style: italic;
+  font-weight: bold;
+}
+/* /fine piè di pagina */
